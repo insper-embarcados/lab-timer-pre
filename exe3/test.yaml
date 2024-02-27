@@ -42,7 +42,7 @@ steps:
   - expect-pin:
       part-id: ledr
       pin: A 
-      value: 1
+      value: 0
 
   - delay: 100ms
 
