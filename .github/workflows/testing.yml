@@ -26,5 +26,5 @@ jobs:
           c_file: ${{ matrix.test }}/main.c
       - uses: insper-embarcados/actions-cppcheck@v1
         with:
-          c_file: ${{env.EXE_DIR}}/main.c
+          c_file: ${{ matrix.test }}/main.c
 
