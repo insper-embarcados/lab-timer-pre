@@ -1,8 +1,8 @@
-add_executable(exe2
+add_executable(exe4
         main.c
 )
 
-target_link_libraries(exe2
+target_link_libraries(exe4
                      hardware_adc
                      pico_stdlib )
-pico_add_extra_outputs(exe2)
+pico_add_extra_outputs(exe4)
