@@ -7,6 +7,8 @@ on:
   push:
     paths:
       - 'exe0/main.c'
+      - 'exe0/foo.c'
+      - 'exe0/foo.h'
 
 jobs:
 
