@@ -7,9 +7,6 @@ on:
   push:
     paths:
       - 'exe0/main.c'
-  pull_request:
-    paths:
-      - 'exe0/main.c'
 
 jobs:
 
