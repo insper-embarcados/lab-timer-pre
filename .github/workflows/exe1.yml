@@ -5,7 +5,7 @@ on:
     paths:
       - 'exe1/main.c'
 jobs:
-  exe2:
+  exe1:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
